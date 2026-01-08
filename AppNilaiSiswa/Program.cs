@@ -8,3 +8,5 @@ name =  Console.ReadLine();
 Console.Write("Score :");
 score = int.Parse(Console.ReadLine());
 
+if (score >= 80) Console.WriteLine("You Pass");
+else Console.WriteLine("You fail!");
