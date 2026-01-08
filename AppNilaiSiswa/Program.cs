@@ -1,6 +1,10 @@
-﻿Console.WriteLine("student Report");
+﻿Console.WriteLine("Student Report");
 int score;
 string name;
 
-Console.WriteLine("student's Name; ");
+Console.WriteLine("Student's Name; ");
 name =  Console.ReadLine();
+
+Console.Write("Score :");
+score = int.Parse(Console.ReadLine());
+
